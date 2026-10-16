@@ -1,4 +1,8 @@
-﻿Console.WriteLine("Hello there");
+int countdown = 10;
+while countdown > 0
+{ 
+  Console.WriteLine($" . {countdown}");
+  countdown --;
+}
 
-var test = Console.ReadLine();
-Console.WriteLine(test);
+Console.WriteLine("START");
